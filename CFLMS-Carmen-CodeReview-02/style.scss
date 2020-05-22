@@ -51,6 +51,7 @@ p {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    padding-top:.5%;
 }
 .headline {
     background-color: rgb(214, 208, 208);
@@ -62,13 +63,101 @@ p {
     padding-bottom: .3%;
     font-size: 14pt;
     width: 100%;
+    margin-bottom: 1%;
 }
+
+
 
 .tophalf {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 1%;
-    padding-right: 1%;
+    padding-bottom: 1%;
+    z-index: 0;
+}
+
+ .tophalf figcaption{
+    background-color: black;
+    color: white;
+    z-index: 1;
+    max-width: 70%;
+    margin-bottom: 1%;
+}
+
+.tophalf img{
+    width:70%;
+    }
+
+#sidebar{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 10%;
+    position: absolute;
+    right:12%;
+    top:28%;
+}
+
+.popular {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    z-index: 0;
+}
+.devbanner {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+}
+
+/*bottom half styling starts here*/
+.bottomhalf {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1%;
     padding-bottom: 1%;
     }
+
+.bottom {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 1%;
+        z-index: 0;
+
+}
+.bottomhalf img {
+    padding-right: 1%;
+}
+
+.bottomhalf figcaption{
+    background-color: black;
+    color: white;
+    z-index: 1;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+footer {
+    background-color: rgb(63, 4, 4);
+    }
+
+footer img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#footertext{
+    color:white;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.sidebar2{
+    display: flex;
+    flex-wrap: wrap;
+            }
+

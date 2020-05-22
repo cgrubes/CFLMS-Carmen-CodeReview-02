@@ -71,6 +71,7 @@ p {
           justify-content: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-top: .5%;
 }
 
 .headline {
@@ -86,6 +87,7 @@ p {
   padding-bottom: .3%;
   font-size: 14pt;
   width: 100%;
+  margin-bottom: 1%;
 }
 
 .tophalf {
@@ -99,7 +101,127 @@ p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-top: 1%;
-  padding-right: 1%;
   padding-bottom: 1%;
+  z-index: 0;
+}
+
+.tophalf figcaption {
+  background-color: black;
+  color: white;
+  z-index: 1;
+  max-width: 70%;
+  margin-bottom: 1%;
+}
+
+.tophalf img {
+  width: 70%;
+}
+
+#sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 10%;
+  position: absolute;
+  right: 12%;
+  top: 28%;
+}
+
+.popular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 1%;
+  z-index: 0;
+}
+
+.devbanner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*bottom half styling starts here*/
+.bottomhalf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 1%;
+  z-index: 0;
+}
+
+.bottomhalf img {
+  padding-right: 1%;
+}
+
+.bottomhalf figcaption {
+  background-color: black;
+  color: white;
+  z-index: 1;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+footer {
+  background-color: #3f0404;
+}
+
+footer img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#footertext {
+  color: white;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.sidebar2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */
