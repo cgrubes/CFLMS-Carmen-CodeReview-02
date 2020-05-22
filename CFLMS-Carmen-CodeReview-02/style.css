@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #8f2b37;
+  color: white;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  height: 8%;
+}
+
+.navbar {
+  background-color: #3f0404;
+  color: white;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 1%;
+  height: 5%;
+  padding-top: 1%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav {
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 18pt;
+}
+
+/*header section ends here*/
+.container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/*top half of body starts here*/
+p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.headline {
+  background-color: #d6d0d0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: dimgray;
+  padding-left: 1%;
+  padding-top: .3%;
+  padding-bottom: .3%;
+  font-size: 14pt;
+  width: 100%;
+}
+
+.tophalf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+/*# sourceMappingURL=style.css.map */
