@@ -37,6 +37,8 @@
     padding-left: 1%;
     padding-right: 1%;
     font-size: 18pt;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*header section ends here*/
@@ -45,7 +47,11 @@
     margin-right: 2%;
 }
 
+
 /*top half of body starts here*/
+.topcontainer {
+    margin-right: 10%;
+}
 
 p {
     display: flex;
@@ -84,25 +90,33 @@ p {
     max-width: 70%;
     margin-bottom: 1%;
 }
+.topimage {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
 .tophalf img{
     width:70%;
     }
 
+.imgdiv {
+    display:flex;
+    max-width:100%;
+    }
+
 #sidebar{
     display: flex;
     flex-wrap: wrap;
-    max-width: 10%;
+    max-width: 8%;
     position: absolute;
-    right:12%;
+    right:2%;
     top:28%;
 }
 
 .popular {
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 1%;
     z-index: 0;
 }
 .devbanner {
@@ -124,7 +138,6 @@ justify-content: center;
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding-top: 1%;
         z-index: 0;
 
 }
@@ -144,10 +157,11 @@ footer {
     background-color: rgb(63, 4, 4);
     }
 
-footer img {
+.footimg {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    padding-right: 2%;
 }
 
 #footertext{
@@ -158,6 +172,12 @@ footer img {
 
 .sidebar2{
     display: flex;
-    flex-wrap: wrap;
-            }
+    position: absolute;
+    right:2%;
+    z-index:2;
+}
+
+.sidebar2 img {
+    width: 8vw;
+}
 
