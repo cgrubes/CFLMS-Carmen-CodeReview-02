@@ -4,6 +4,27 @@
   font-family: Arial;
 }
 
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #c3c3d3;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1200px) {
+  body {
+    background-color: #fafa6f;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  body {
+    background-color: #d2d2dd;
+  }
+  div .headline {
+    background-color: #fcfc90;
+  }
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -179,6 +200,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 1%;
 }
 
 /*bottom half styling starts here*/
@@ -209,16 +231,17 @@ p {
   z-index: 0;
 }
 
-.bottomhalf img {
-  padding-right: 1%;
+.bottom img {
+  max-width: 80%;
+  z-index: 0;
 }
 
 .bottomhalf figcaption {
   background-color: black;
   color: white;
   z-index: 1;
-  margin-left: 2em;
-  margin-right: 2em;
+  max-width: 80%;
+  margin-bottom: 1%;
 }
 
 footer {
@@ -254,5 +277,6 @@ footer {
 
 .sidebar2 img {
   width: 8vw;
+  height: 150%;
 }
 /*# sourceMappingURL=style.css.map */
